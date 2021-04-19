@@ -1,0 +1,65 @@
+Orginally, we were able to get the project working on localhost.
+
+Like most groups, we had issues connecting to and running the project from the CISE machines.
+So, we decided to adapt to the updated project criteria and demonstrate only on localhost.
+
+However, after we recorded the demo, we were thankfully able to get the project to work on the CISE machines. So, we recorded an additional demo that follows the localhost demo.
+
+We understand that only one project submission is allowed per group; however, since we did two demos, one on localhost, and one on the CISE machines, we figured we would include both
+versions of the project, as this is much cleaner for you to test rather than uncomment/commenting dozens/hundreds of lines of code. 
+
+Therefore, there are two versions of the project:
+	Version 1 (For localhost only)- Contained in Local_Testing/swampTorrent-bTest
+	Version 2 (For CISE machine access only) - Contained in CISE_Testing/swampTorrent-bTest
+
+Additionally, since an announcement went out stating that you would not be providing any files, and that we are to choose the files we use, we included them, just outside of their main
+main directory/location.
+
+So, we decided to include the PeerInfo.cfg, Common.cfg, and the test file used for each case in their respective directory, just outside of their intended locations
+If you want to test with your files then there should be no issue and you do not have to delete anything to run the program properly, you just use the swampTorrent-bTest directory. 
+
+* To run the project with our files, copy the PeerInfo.cfg and Common.cfg files into swampTorrent-bTest, and move project_description.pdf inside swampTorrent-bTest/peer_1001
+* The project tree ends up looking as such: 
+
+Localhost version:
+	-> swampTorrent-bTest
+		-> common
+			-> Constants.java
+		-> peer_1001
+			-> project_description.pdf
+		-> peer_1002
+		-> peer_1003
+		-> peer_1004
+		-> peerprocess -> and it's many files
+		-> Common.cfg
+		-> PeerInfo.cfg
+		-> peerProcess.java
+		-> RemotePeerInfo.java
+		-> StartRemotePeers.java
+
+
+The CISE Version:
+	-> swampTorrent-bTest
+		-> common
+			-> Constants.java
+		-> lib
+			-> jsch-0.1.5.jar
+		-> peer_1001
+			-> project_description.pdf
+		-> peer_1002
+		-> peer_1003
+		-> peer_1004
+		-> peerprocess -> and it's many files	
+		-> Common.cfg
+		-> PeerInfo.cfg
+		-> peerProcess.java
+		-> StartRemotePeers.java
+
+*** Note PeerInfo.cfg, Common.cfg, and the test file are different for the localhost and CISE versions. The localhost versions of the files are simply under /Local_Testing, 
+and the CISE versions of the files are under /CISE_Testing.
+ 
+Video Demonstration Link (CISE demo follows lolcalhost demo): 
+https://uflorida-my.sharepoint.com/:v:/g/personal/blaiseabowman_ufl_edu/EVtWONgyrqVOiB8BATfcZGQBzVUL2RmX4EKJ--Lnak6rpA?e=fbf2ol
+
+Thank you,
+Blaise Bowman, Alex Liou, and Andrew Ortega.
